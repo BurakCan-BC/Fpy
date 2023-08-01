@@ -4,6 +4,9 @@ body ,html{
 .sidebar{
     background-color: #060606;
 }
+.detail-title a{
+    color: white;
+}
 .modal-header {
     background-color: #060606;
 }
