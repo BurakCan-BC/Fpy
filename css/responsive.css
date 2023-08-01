@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100%;
+}
+aside{
+    min-height: 100%;
+}
+.container{
+    min-width: 100%;
+}

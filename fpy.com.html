@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="-X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/font/">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <title>fpy</title>
+</head>
+<body>  
+    <div class="detail-title">
+        <p class="h3">Anasayfa</p>
+        <button name="search-btn" type="button" class="btn btn-dark">Ara</button>
+        <button name="language-btn" type="button" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg" class="btn btn-dark language"><label>Dil Seç</label></button>
+     </div><!--detail-title-->
+     <!-- Modal -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Dil Seçenekleri</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <button type="button" class="btn btn-dark">English</button>
+        <button type="button" class="btn btn-dark">Afrikaans</button>
+        <button type="button" class="btn btn-dark">Amharic</button>
+        <button type="button" class="btn btn-dark">Arabic</button>
+        <button type="button" class="btn btn-dark">Arabic (Egypt)</button>
+        <button type="button" class="btn btn-dark">Arabic (Morocco)</button>
+        <button type="button" class="btn btn-dark">Arabic (Saudi Arabia)</button>
+        <button type="button" class="btn btn-dark">Azerbaijani</button>
+        <button type="button" class="btn btn-dark">Bulgarian</button>
+        <button type="button" class="btn btn-dark">Bhojpuri</button>
+        <button type="button" class="btn btn-dark">Bengali</button>
+        <button type="button" class="btn btn-dark">Bosnian</button>
+        <button type="button" class="btn btn-dark">Catalan</button>
+        <button type="button" class="btn btn-dark">Czech</button>
+        <button type="button" class="btn btn-dark">Danish</button>
+        <button type="button" class="btn btn-dark">German</button>
+        <button type="button" class="btn btn-dark">Greek</button>
+        <button type="button" class="btn btn-dark">English (United Kingdom)</button>
+        <button type="button" class="btn btn-dark">European Spanish</button>
+        <button type="button" class="btn btn-dark">Latin American Spanish</button>
+        <button type="button" class="btn btn-dark">Spanish (Argentina)</button>
+        <button type="button" class="btn btn-dark">Spanish (Mexico)</button>
+        <button type="button" class="btn btn-dark">Estonian</button>
+        <button type="button" class="btn btn-dark">Basque</button>
+        <button type="button" class="btn btn-dark">Persian</button>
+        <button type="button" class="btn btn-dark">Finnish</button>
+        <button type="button" class="btn btn-dark">Filipino</button>
+        <button type="button" class="btn btn-dark">French</button>
+        <button type="button" class="btn btn-dark">Canadian French</button>
+        <button type="button" class="btn btn-dark">Galician</button>
+        <button type="button" class="btn btn-dark">Gujarati</button>
+        <button type="button" class="btn btn-dark">Hebrew</button>
+        <button type="button" class="btn btn-dark">Hindi</button>
+        <button type="button" class="btn btn-dark">Croatian</button>
+        <button type="button" class="btn btn-dark">Hungarian</button>
+        <button type="button" class="btn btn-dark">Indonesian</button>
+        <button type="button" class="btn btn-dark">Icelandic</button>
+        <button type="button" class="btn btn-dark">Italian</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="container sidebar">
+            <div class="row">     
+               <div class="col-md-3">
+                   <div class="detail">
+                    <h1 class="display-6">Kitaplığın</h1>
+                    <a href="#"><p class="h5">Çalma Listesi Oluştur</p></a>
+                    <p>Çok kolay. Sana Yardımcı olacağız.</p>
+                    <button name="music-list-btn" type="button" class="btn btn-dark">Müzik Listesi Oluştur</button>
+                   </div>
+                   <div class="detail">
+                    <h1 class="display-6">Sokak Sanatçıları</h1>
+                    <a href="#"><p class="h5">Çalma Listesine Ekle</p></a>
+                    <p>Yıldızını sen seç</p>
+                    <button name="music-list-btn" type="button" class="btn btn-dark">Keşfet</button>
+                   </div>
+                   <div class="detail">
+                    <h1 class="display-6">Grup Kur</h1>
+                    <p class="h5">Seninde sahnen olsun</p>
+                    <p>Yıldız olmaya hazırlan</p>
+                    <button name="music-list-btn" type="button" class="btn btn-dark">Sahne Arkadaşım</button>
+                   </div>
+                </div>
+                <div class="detail">
+                 <button name="music-list-btn" type="button" class="btn btn-dark">Kayıt Ol</button>
+                 <button name="music-list-btn" type="button" class="btn btn-dark">Oturum Aç</button>
+                </div>
+               </div>      
+            </div><!--row-->           
+         </div>
+    <main>
+       <article>
+          <div class="container">
+             <div class="row">     
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+                <div class="col-md-1">
+                    <div class="card" style="width: 8rem">
+                        <img class="card-img-top" src="image/logo/deneme.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Müzik Adı</h5>
+                          <p class="card-text">Müzik Hakkında Açıklama</p>
+                        </div>
+                      </div>
+                </div><!--col-md-1-->
+             </div><!--row-->           
+          </div>
+       </article>
+    </main>
+    
+    <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

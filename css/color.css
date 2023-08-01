@@ -1,0 +1,15 @@
+body ,html{
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(128,128,128,1) 100%);
+}
+.sidebar{
+    background-color: #808080;
+}
+.detail-title{
+    color: white;
+}
+.detail{
+    color: #ffffff;
+}
+.detail a{
+    color: wheat;
+}
